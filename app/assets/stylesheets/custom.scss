@@ -17,10 +17,9 @@ textarea {
 
 .center{
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */ 
@@ -61,16 +60,12 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
-#logo:hover{
-  color: #fff;
-  text-decoration: none;
-}
-
-img {
-  display: none;
-}
 
 /* footer */
 
